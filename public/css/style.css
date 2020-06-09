@@ -1,0 +1,259 @@
+@font-face {
+font-family: "Adobe Garamond Pro";
+src: url("https://www.dafontfree.net/freefonts-adobe-garamond-pro-f64375.htm") format("opentype");
+}
+*{
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+
+;
+}
+*::after,
+*::before{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+html, body{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #000000;
+}
+
+
+header .nav .logo{
+	float: left;
+	font-size: 30px;
+	margin: 15px 0 0 50px;
+	height: inherit;
+}
+header .nav img{
+	width: 200px;
+	height: auto;
+}
+header .nav ul{
+	float: right;
+	margin: 0px;
+	padding-left: 10px;
+	list-style-type: none;
+
+}
+header .nav ul li{
+	float: left;
+	margin-top: 10px;
+}
+header .nav ul li a{
+	height: inherit;
+	display: block;
+	color: white!important;
+	padding: 21px;
+	font-size: 1.1em;
+	text-decoration: none!important;
+	transition: 0.3s;
+}
+header .nav ul li a.active{
+	background-color: black;
+}
+header .nav ul li a:hover{
+	background-color: black;
+	transition: 0.3s;
+}
+header .nav button{
+	background-color: #C80125;
+	width: 170px!important;
+	height: auto!important;
+	margin: 16px!important;
+	padding: 15px!important;
+	border: 1px solid #C80125;
+	border-radius: 5px!important;
+	transition: 0.3s;
+}
+header .nav button a{
+	text-decoration: none!important;
+	color: white!important;
+	font-size: 1.2em!important;
+	
+}
+header button:hover{
+	background-color: #333333!important;
+	border: 1px solid #333333;
+	transition: 0.3s;
+}
+header p{
+	font-size: 15px!important;
+	clear: both;
+	color: #FFFFFF;
+	text-align: left;
+	position: relative;
+	top: 500px;
+	margin-left: 20px;
+}
+header span{
+
+	font-family: 'AGaramondPro-Regular' sans-serif;
+	font-size: 3em;
+	
+}
+#wrapper{
+	background-color: #000000!important;
+}
+.content{
+	background-color: #333333;
+	width: 90%;
+	height:auto;
+	margin: 40px;
+	padding: 30px;
+	color: #FFFFFF;
+
+
+}
+footer{
+	left: 0;
+	bottom: 0;
+	background: #333333;
+	color: white;
+	height: 250px;
+	width: 100%;
+	position: relative;
+}
+footer .footer-content{
+	height: 200px;
+	display: flex;
+}
+
+footer .footer-content .footer-section{
+	flex: 1;
+	padding: 25px;
+	font-size: 0.8em;
+}
+
+footer .footer-content .footer-section.links ul{
+	list-style-type: none;
+
+}
+footer .footer-content .footer-section.links li{
+	margin-bottom: 20px;
+}
+footer .footer-content .footer-section.links li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+footer .footer-content .footer-section.links li a:hover{
+	color: #cccccc;
+}
+footer .footer-content .social-link a{
+	width: 45px;
+	height: 41px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	margin-right: 8px;
+	text-align: center;
+	font-size: 1.8em;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+footer .footer-content .about .socials a:hover{
+	color: #cccccc;
+	transition: all 0.3s;
+}
+footer .footer-bottom{
+	
+	color: white;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	font-size: 0.8em;
+	padding: 30px;
+	margin-top: 10px;
+}
+
+/*==============HEADER MEDIA QUERIES STYLING==============*/
+@media only screen and (max-width: 980px){
+	header{
+		position: relative;
+	}
+	header .nav ul{
+		width: 100%;
+		background: #333333;
+		max-height: 0px;
+		overflow: hidden;
+
+		}
+	.showing{
+		max-height: 100em;
+	}
+	header  .nav ul li{
+		width: 100%;
+	}
+	
+header .nav .menu-toggle{
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	font-size: 1.9em;
+	color: #ffffff;
+}
+header .nav .logo{
+	margin-top: .5em;
+	margin-left: .8em;
+}
+
+header p{
+	text-align: left;
+	position: relative;
+	top: 300px;
+	margin-left: 20px;
+}
+}
+/*==============END OF HEADER MEDIA QUERIES STYLING==============*/
+
+
+/*==============CONTENT MEDIA QUERIES STYLING==============*/
+@media only screen and (max-width: 934px){
+.content{
+	width: 80%;
+	height:auto;
+	margin: 40px;
+	padding: 30px;
+	color: #FFFFFF;
+}
+.content h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+}
+/*==============END OF CONTENT MEDIA QUERIES STYLING==============*/
+
+/*==============FOOTER MEDIA QUERIES STYLING==============*/
+@media only screen and (max-width: 934px){
+	footer{
+	height: auto;
+	}
+	footer .footer-content{
+	height: auto;
+	flex-direction: column;
+	}
+	
+	footer .footer-bottom{
+	height: 40px;
+	padding: 40px;
+	}
+}
+@media only screen and (max-width: 450px){
+		footer .footer-bottom{
+			margin-top: 150px;
+			font-size: 14px;
+		}
+	}
+/*==============END OF FOOTER MEDIA QUERIES STYLING==============*/
