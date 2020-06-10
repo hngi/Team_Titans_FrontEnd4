@@ -1,0 +1,204 @@
+body{
+    background-color: #fff;
+}
+
+#first{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.267)),url('images/Home.png');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+ul li{
+    margin: 0.5px;
+    margin-right: 15px;
+}
+
+.one{
+    text-decoration: underline;
+}
+
+#col{
+    color: #fff;
+}
+
+ul li:hover{
+    text-decoration: underline;
+}
+
+#image{
+
+    left: 0%;
+    right: 0%;
+    
+    font-family: Aladin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42.1622px;
+    line-height: 52px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.column{
+    color: white;
+    padding-top: 180px;
+    font-size: 31px;
+    font-family: Aladin;
+}
+
+.sec{
+    color: rgb(141, 7, 7);
+    /**/
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: Aladin;
+}
+
+/*second div*/
+
+.outdoor{
+    background-color:black;
+    height: 100%;
+}
+
+#to{
+    margin-top: 110px;
+    color: white;
+}
+
+#imagese{
+    margin-top: 30px;
+
+}
+
+#imager{
+    margin-top: 160px;
+}
+
+#imag{
+    height: 90%;
+}
+
+#p1{
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+
+#p2{
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+#hip{
+    color: rgb(141, 7, 7);
+    font-family: Adobe Arabic;
+    font-size: 29px;
+   
+}
+
+
+#second{
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+}
+
+#btn{
+    border-radius: 6px;
+    font-weight: 430;
+}
+
+#btn:hover{
+    background-color: black;
+    border: solid 1px red;
+    color: white;
+    font-weight: 430;
+}
+
+#too {
+    color: white;
+    margin-top: 40px;
+}
+
+#imagers{
+color: white;
+margin-top: 130px;
+}
+
+.footer{
+    background-color: black;
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+
+h5{
+    color: white;
+}
+
+#fix{
+    font-size: 12px;   
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;  
+}
+
+#loc{
+    margin-top: 40px;
+    color: white;
+    margin: 5px;
+}
+
+.move{
+    margin-top: 35px;
+    margin: 50px;
+}
+
+  .fa-twitter, .fa-facebook, .fa-instagram{
+      color: white;
+      margin: 8px;
+      
+  }
+.copyright{
+    color: white;
+}
+
+@media(max-width: 1000px)
+{
+    #hip{
+        color: #FFFFFF;
+        font-family: Adobe Arabic;
+        font-size: 21px;
+       
+    }
+    
+}
+
+@media(max-width: 767px)
+{
+    #hip{
+        color: #FFFFFF;
+        font-family: Adobe Arabic;
+        font-size: 24px;
+       
+    }
+    
+}
